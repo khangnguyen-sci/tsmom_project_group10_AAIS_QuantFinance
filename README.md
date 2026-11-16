@@ -1,4 +1,4 @@
-Hola, this is the first brick in completion of Group 7's final project for AAIS (2026) - MSc. Quantitative Finance - University of Warsaw.
+Hola, this is the first brick in completion of Group 10's final project for AAIS (2026) - MSc. Quantitative Finance - University of Warsaw.
 
 We will only focus on ETFs
 
