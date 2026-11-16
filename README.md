@@ -11,8 +11,10 @@ AQR: [https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly
 # Let's set up the workspace locally:
 1. Create a folder "tsmom_project" in your device
 2. open terminal run the following commands in order:
-   2.1. point to the project's directory (ex: cd /Users/augustinenguyen/tsmom_project - change to your exact directory)
+   2.1. point to the project's directory
+   (ex: cd /Users/augustinenguyen/tsmom_project - change to your exact directory)
    2.2. run these commands in order:
+   
 ```bash
 mkdir -p ~/tsmom_project/{data/raw,data/processed,data/external,notebooks,src,results}
 cd ~/tsmom_project
