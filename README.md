@@ -12,7 +12,7 @@ AQR: (https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly
 1. Create a folder "tsmom_project" in your device
 2. open terminal run the following commands in order:
    2.1. point to the project's directory
-   (ex: ```bashcd /Users/augustinenguyen/tsmom_project - change to your exact directory)```
+   (ex: ```bash cd /Users/augustinenguyen/tsmom_project - change to your exact directory)```
    2.2. run these commands in order:
    
 ```bash
@@ -23,7 +23,7 @@ source ~/tsmom_project/.venv/bin/activate
 python -m ipykernel install --user --name=tsmom --display-name="Python (tsmom)"
 jupyter lab
 ```
-!(from now on, always activate the environment by ```bashsource ~/tsmom_project/.venv/bin/activate``` and In the notebook, switch the kernel to "Python (tsmom)")
+!(from now on, always activate the environment by ```bash source ~/tsmom_project/.venv/bin/activate``` and In the notebook, switch the kernel to "Python (tsmom)")
 
 # Current proposed architecture:
 ```text
