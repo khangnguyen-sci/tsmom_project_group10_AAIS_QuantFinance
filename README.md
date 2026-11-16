@@ -3,10 +3,10 @@ Hola, this is the first brick in completion of Group 7's final project for AAIS 
 We will only focus on ETFs
 
 # Data: 
-. yfinance:
-  for: main implementation
-. AQR: [https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly?utm_source=chatgpt.com](https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly)
-  for: comparing the direction, broad performance characteristics and historical behaviour of our baseline against the published TSMOM factor.
+yfinance:<br>
+  for: main implementation<br>
+AQR: (https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly)<br>
+  for: comparing the direction, broad performance characteristics and historical behaviour of our baseline against the published TSMOM factor.<br>
 
 # Let's set up the workspace locally:
 1. Create a folder "tsmom_project" in your device
