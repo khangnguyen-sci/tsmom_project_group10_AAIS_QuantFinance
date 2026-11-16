@@ -13,24 +13,26 @@ AQR: [https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly
 2. open terminal run the following commands in order:
    2.1. point to the project's directory (ex: cd /Users/augustinenguyen/tsmom_project - change to your exact directory)
    2.2. run these commands in order:
-     mkdir -p ~/tsmom_project/{data/raw,data/processed,data/external,notebooks,src,results}
-     cd ~/tsmom_project
-     python3 -m venv .venv
-     source ~/tsmom_project/.venv/bin/activate
-     python -m ipykernel install --user --name=tsmom --display-name="Python (tsmom)"
-     jupyter lab
-
+```bash
+mkdir -p ~/tsmom_project/{data/raw,data/processed,data/external,notebooks,src,results}
+cd ~/tsmom_project
+python3 -m venv .venv
+source ~/tsmom_project/.venv/bin/activate
+python -m ipykernel install --user --name=tsmom --display-name="Python (tsmom)"
+jupyter lab
+```
 !(from now on, always activate the environment by source ~/tsmom_project/.venv/bin/activate and In the notebook, switch the kernel to "Python (tsmom)")
 
 # Current proposed architecture:
+```text
 tsmom_project/
 │
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
+├── data/                  
+│   ├── raw/               
+│   ├── processed/         
+│   └── external/          
 │
-├── notebooks/
+├── notebooks/             
 │   ├── 01_data_collection.ipynb
 │   ├── 02_data_quality.ipynb
 │   ├── 03_momentum_signals.ipynb
@@ -39,16 +41,14 @@ tsmom_project/
 │   ├── 06_backtesting.ipynb
 │   └── 07_performance_analysis.ipynb
 │
-├── src/
-│   ├── data.py
-│   ├── signals.py
-│   ├── volatility.py
-│   ├── portfolio.py
-│   └── backtest.py
+├── src/                   
+│   ├── data.py            
+│   ├── signals.py         
+│   ├── volatility.py      
+│   ├── portfolio.py       
+│   └── backtest.py       
 │
-├── results/
+├── results/               
 └── README.md
-
-
-
+```
 # To be continue
