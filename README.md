@@ -20,6 +20,8 @@ mkdir -p ~/tsmom_project/{data/raw,data/processed,data/external,notebooks,src,re
 cd ~/tsmom_project
 python3 -m venv .venv
 source ~/tsmom_project/.venv/bin/activate
+python -m pip install --upgrade pip
+pip install jupyterlab yfinance pandas numpy matplotlib scipy statsmodels openpyxl pyarrow plotly urllib3<2
 python -m ipykernel install --user --name=tsmom --display-name="Python (tsmom)"
 jupyter lab
 ```
