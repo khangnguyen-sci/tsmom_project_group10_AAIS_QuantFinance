@@ -27,6 +27,11 @@ jupyter lab
 ```
 !(from now on, always activate the environment by ```source ~/tsmom_project/.venv/bin/activate``` and In the notebook, switch the kernel to "Python (tsmom)")
 
+# Baseline benchmarks and references: 
+  (baltas2020) https://github.com/webclinic017/notebooks-2/blob/master/trend_following_baltas2020.ipynb<br>
+    Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2140091<br>
+  (moskowitz2012) https://github.com/webclinic017/notebooks-2/blob/master/trend_following_moskowitz2012.ipynb<br>
+    Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2089463<br>
 # Current proposed architecture:
 ```text
 tsmom_project/
