@@ -7,6 +7,7 @@ yfinance:<br>
   for: main implementation<br>
 AQR: (https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly)<br>
   for: comparing the direction, broad performance characteristics and historical behaviour of our baseline against the published TSMOM factor.<br>
+Stooq: (https://stooq.com) #alternatives for yfinance as it has live (but delayed) trading data  
 
 # Let's set up the workspace locally:
 1. Create a folder "tsmom_project" in your device
