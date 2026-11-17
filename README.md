@@ -37,7 +37,7 @@ tsmom_project/
 │   └── external/          
 │
 ├── notebooks/             
-│   ├── 01_data_collection.ipynb
+│   ├── 01_data_collection.ipynb    combined with 02
 │   ├── 02_data_quality.ipynb
 │   ├── 03_momentum_signals.ipynb
 │   ├── 04_volatility_estimation.ipynb
