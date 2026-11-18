@@ -10,8 +10,7 @@ AQR: (https://www.aqr.com/insights/datasets/time-series-momentum-factors-monthly
 Stooq: (https://stooq.com) #alternatives for yfinance as it has live (but delayed) trading data  
 
 # Let's set up the workspace locally:
-1. Create a folder "tsmom_project" in your device
-2. open terminal run the following commands in order:
+1. open terminal run the following commands in order:
    2.1. point to the project's directory<br>
    (ex: ```cd /Users/augustinenguyen/tsmom_project - change to your exact directory)```<br>
    2.2. run these commands in order:
